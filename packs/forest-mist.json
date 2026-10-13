@@ -1,0 +1,24 @@
+{
+  "id": "forest-mist",
+  "name": "Forest Mist",
+  "author": "Waverly",
+  "description": "Deep evergreen fading into morning fog.",
+  "tags": ["dark", "nature", "calm"],
+  "palette": {
+    "background": ["#0f2a1d", "#24543b", "#6b9e78", "#cfe1c8"],
+    "surface": "#0f2a1d",
+    "text": "#e8f3e4",
+    "accent": "#a7d49b",
+    "muted": "#8fb197"
+  },
+  "font": { "display": "Fraunces", "body": "Inter" },
+  "wallpaper": { "style": "gradient", "angle": 200, "seed": 9, "grain": 0.07 },
+  "widgets": {
+    "radius": 36,
+    "opacity": 0.72,
+    "include": ["clock", "weather", "quote", "calendar"],
+    "quote": { "text": "In every walk with nature one receives far more than he seeks.", "author": "John Muir" },
+    "weather": { "city": "Portland", "temp": 9, "condition": "rainy", "unit": "C" },
+    "countdown": { "label": "Camping", "date": "2027-05-15" }
+  }
+}

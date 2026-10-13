@@ -1,0 +1,13 @@
+{
+  "name": "theme-pack-studio",
+  "version": "0.1.0",
+  "description": "Build, preview and export themed widget and wallpaper packs.",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "start": "node scripts/serve.mjs",
+    "test": "node --test",
+    "validate": "node scripts/validate-packs.mjs"
+  },
+  "engines": { "node": ">=18" }
+}

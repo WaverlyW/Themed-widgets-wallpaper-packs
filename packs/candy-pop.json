@@ -1,0 +1,24 @@
+{
+  "id": "candy-pop",
+  "name": "Candy Pop",
+  "author": "Waverly",
+  "description": "Playful pastel candy stripes.",
+  "tags": ["pastel", "playful", "bright"],
+  "palette": {
+    "background": ["#ffd6e8", "#fff1b8", "#c8f7dc", "#cfe3ff"],
+    "surface": "#ffffff",
+    "text": "#4a2545",
+    "accent": "#ff5c8a",
+    "muted": "#9c7a95"
+  },
+  "font": { "display": "Nunito", "body": "Nunito" },
+  "wallpaper": { "style": "stripes", "angle": 35, "seed": 5, "grain": 0.02 },
+  "widgets": {
+    "radius": 64,
+    "opacity": 0.92,
+    "include": ["calendar", "weather", "countdown", "clock", "quote"],
+    "quote": { "text": "Life is short. Eat dessert first.", "author": "Jacques Torres" },
+    "weather": { "city": "Seoul", "temp": 20, "condition": "partly", "unit": "C" },
+    "countdown": { "label": "Birthday!", "date": "2027-02-14" }
+  }
+}

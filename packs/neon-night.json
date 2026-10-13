@@ -1,0 +1,24 @@
+{
+  "id": "neon-night",
+  "name": "Neon Night",
+  "author": "Waverly",
+  "description": "Electric magenta and cyan glow over a midnight sky.",
+  "tags": ["dark", "vibrant", "synthwave"],
+  "palette": {
+    "background": ["#0b0221", "#3a0ca3", "#f72585", "#4cc9f0"],
+    "surface": "#140a2e",
+    "text": "#f8f7ff",
+    "accent": "#f72585",
+    "muted": "#a5a1c9"
+  },
+  "font": { "display": "Space Grotesk", "body": "Space Grotesk" },
+  "wallpaper": { "style": "blobs", "angle": 160, "seed": 7, "grain": 0.06 },
+  "widgets": {
+    "radius": 48,
+    "opacity": 0.78,
+    "include": ["clock", "calendar", "weather", "countdown", "quote"],
+    "quote": { "text": "The night is more alive and more richly colored than the day.", "author": "Vincent van Gogh" },
+    "weather": { "city": "Tokyo", "temp": 18, "condition": "partly", "unit": "C" },
+    "countdown": { "label": "Concert", "date": "2026-11-28" }
+  }
+}

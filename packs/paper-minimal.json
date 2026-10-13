@@ -1,0 +1,24 @@
+{
+  "id": "paper-minimal",
+  "name": "Paper Minimal",
+  "author": "Waverly",
+  "description": "Quiet off-white paper with a dotted grid and ink accents.",
+  "tags": ["light", "minimal", "monochrome"],
+  "palette": {
+    "background": ["#f5f1e8", "#e7e0d0"],
+    "surface": "#fffdf8",
+    "text": "#1c1917",
+    "accent": "#dc2626",
+    "muted": "#78716c"
+  },
+  "font": { "display": "Playfair Display", "body": "Inter" },
+  "wallpaper": { "style": "dots", "angle": 170, "seed": 1, "grain": 0.08 },
+  "widgets": {
+    "radius": 24,
+    "opacity": 0.95,
+    "include": ["quote", "clock", "calendar", "countdown"],
+    "quote": { "text": "Simplicity is the ultimate sophistication.", "author": "Leonardo da Vinci" },
+    "weather": { "city": "Copenhagen", "temp": 11, "condition": "cloudy", "unit": "C" },
+    "countdown": { "label": "Deadline", "date": "2026-11-01" }
+  }
+}

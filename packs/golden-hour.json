@@ -1,0 +1,24 @@
+{
+  "id": "golden-hour",
+  "name": "Golden Hour",
+  "author": "Waverly",
+  "description": "Mountain silhouettes under a warm setting sun.",
+  "tags": ["warm", "landscape", "retro"],
+  "palette": {
+    "background": ["#2b1055", "#7c2d64", "#e8505b", "#f9a26c"],
+    "surface": "#fff7ed",
+    "text": "#3b1c32",
+    "accent": "#f97316",
+    "muted": "#9a6b7c"
+  },
+  "font": { "display": "DM Serif Display", "body": "Nunito" },
+  "wallpaper": { "style": "sunset", "angle": 180, "seed": 3, "grain": 0.05 },
+  "widgets": {
+    "radius": 40,
+    "opacity": 0.9,
+    "include": ["countdown", "clock", "weather", "calendar"],
+    "quote": { "text": "Every sunset brings the promise of a new dawn.", "author": "Ralph Waldo Emerson" },
+    "weather": { "city": "Santa Fe", "temp": 24, "condition": "sunny", "unit": "C" },
+    "countdown": { "label": "Road trip", "date": "2026-12-20" }
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "id": "ocean-calm",
+  "name": "Ocean Calm",
+  "author": "Waverly",
+  "description": "Layered tide lines in soft sea glass blues.",
+  "tags": ["light", "calm", "nature"],
+  "palette": {
+    "background": ["#e0f2fe", "#7dd3fc", "#0ea5e9", "#0369a1", "#0c4a6e"],
+    "surface": "#f8fdff",
+    "text": "#0c4a6e",
+    "accent": "#0ea5e9",
+    "muted": "#5b7f95"
+  },
+  "font": { "display": "Fraunces", "body": "Nunito" },
+  "wallpaper": { "style": "waves", "angle": 180, "seed": 12, "grain": 0.03 },
+  "widgets": {
+    "radius": 56,
+    "opacity": 0.85,
+    "include": ["weather", "calendar", "clock", "quote"],
+    "quote": { "text": "We are tied to the ocean.", "author": "John F. Kennedy" },
+    "weather": { "city": "San Diego", "temp": 72, "condition": "sunny", "unit": "F" },
+    "countdown": { "label": "Beach day", "date": "2027-06-01" }
+  }
+}
